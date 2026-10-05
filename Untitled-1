@@ -1,0 +1,119 @@
+═══════════════════════════════════════════════════════════════
+    FUNÇÕES ATIVAS NO PROJETO BPRS
+═══════════════════════════════════════════════════════════════
+
+✅ FUNÇÕES INSTALADAS E ATIVAS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ✅ Smart God Mode
+   - Arquivo: features/SmartGodMode.hpp
+   - Status: ATIVO
+   - Descrição: Sistema inteligente de invencibilidade
+
+2. ✅ Speed Hack
+   - Arquivo: features/SpeedHack.hpp
+   - Status: ATIVO
+   - Descrição: Modificador de velocidade de movimento
+
+3. ✅ Damage Multiplier
+   - Arquivo: features/DamageMultiplier.hpp
+   - Status: ATIVO
+   - Descrição: Multiplicador de dano
+
+4. ✅ Mob Vacuum
+   - Arquivo: features/MobVacuum.hpp
+   - Status: ATIVO
+   - Descrição: Puxa inimigos para perto do jogador
+
+5. ✅ Skip Cutscene
+   - Arquivo: features/SkipCutscene.hpp
+   - Status: ATIVO
+   - Descrição: Pula cutscenes e diálogos automaticamente
+
+6. ✅ FOV Changer
+   - Arquivo: features/FOV.hpp
+   - Status: ATIVO
+   - Descrição: Modificador de campo de visão (Field of View)
+
+7. ✅ Attack Speed
+   - Arquivo: features/AttackSpeed.hpp
+   - Status: ATIVO (mas hooks desabilitados - aguardando atualização dos RVAs)
+   - Descrição: Modificador de velocidade de ataque
+
+8. ✅ Infinite Stamina
+   - Arquivo: features/InfiniteStamina.hpp
+   - Status: ATIVO (RECÉM CORRIGIDO)
+   - Descrição: Stamina infinita para dash/sprint/atividades
+
+9. ✅ Kill Aura
+   - Arquivo: features/KillAura.hpp
+   - Status: ATIVO (atualizado via Update loop)
+   - Descrição: Mata inimigos automaticamente em um raio
+
+10. ✅ Gift Box Duplicator
+    - Arquivo: features/GiftBoxDuplicator.hpp
+    - Status: ATIVO
+    - Descrição: Duplica itens obtidos de gift boxes
+
+
+═══════════════════════════════════════════════════════════════
+❌ FUNÇÕES DESATIVADAS (COMENTADAS):
+═══════════════════════════════════════════════════════════════
+
+1. ❌ No Cooldown
+   - Arquivo: features/NoCooldown.hpp
+   - Status: DESATIVADO
+   - Motivo: Comentado no InstallAll()
+
+2. ❌ Critical Hit Ultimate
+   - Arquivo: features/CriticalHit_Ultimate.hpp
+   - Status: DESATIVADO
+   - Motivo: Include comentado
+
+3. ❌ Instant Ranged AOE
+   - Arquivo: features/InstantRangedAOE.hpp
+   - Status: DESATIVADO
+   - Motivo: Comentado no InstallAll()
+
+4. ❌ Infinite Jump
+   - Arquivo: features/InfiniteJump.hpp
+   - Status: DESATIVADO
+   - Motivo: Comentado no InstallAll()
+
+5. ❌ Instant Fishing
+   - Arquivo: features/InstantFishing.hpp
+   - Status: DESATIVADO
+   - Motivo: Comentado no InstallAll()
+
+6. ❌ Auto Fishing
+   - Arquivo: features/AutoFishing.hpp
+   - Status: DESATIVADO
+   - Motivo: Não está no InstallAll()
+
+7. ❌ Teleport To Chest
+   - Arquivo: features/TeleportToChest.hpp
+   - Status: DESATIVADO
+   - Motivo: Não está no InstallAll()
+
+8. ❌ AOE Hit
+   - Arquivo: features/AOEHit.hpp
+   - Status: DESATIVADO
+   - Motivo: Não está no InstallAll()
+
+9. ❌ Track Bar Freeze
+   - Arquivo: features/TrackBarFreeze.hpp
+   - Status: DESATIVADO
+   - Motivo: Não está no InstallAll()
+
+
+═══════════════════════════════════════════════════════════════
+📝 NOTAS IMPORTANTES:
+═══════════════════════════════════════════════════════════════
+
+• As funções ativas são instaladas em get.cpp via Hooks::InstallAll()
+• Algumas features têm hooks instalados mas podem estar desabilitadas por padrão
+• O usuário pode ativar/desativar features via interface ImGui
+• Attack Speed está ativo mas com hooks desabilitados (precisa atualizar RVAs)
+• Infinite Stamina foi recém corrigido para funcionar com dash/sprint
+
+═══════════════════════════════════════════════════════════════
